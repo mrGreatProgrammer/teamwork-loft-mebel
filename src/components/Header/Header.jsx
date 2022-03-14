@@ -8,10 +8,10 @@ function Header() {
   return (
     <header className="header">
       <div className="header__top">
-          <NavLink to="/" >главная</NavLink>
-          
-          <NavLink to="/user" >О нас</NavLink>
-          
+        <nav>
+          <NavLink to="/">главная</NavLink>
+          <NavLink to="/user">О нас</NavLink>
+        </nav>
       </div>
       <div className="header__middle">
         <Logo /> <Searcher /> <div className="header__biddle_btns"></div>
