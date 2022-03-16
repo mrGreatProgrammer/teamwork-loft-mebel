@@ -1,0 +1,16 @@
+.searcher{
+
+}
+.searcher__icon{
+    position: relative;
+    left: 35px;
+    color: #151515;
+}
+.searcher--inp{
+    width: 784px;
+    height: 45px;
+    border: 1px solid #e6e6e6;
+    padding-left: 45px;
+    font-size: 14px;
+    font-weight: 400;
+}

@@ -3,3 +3,8 @@
   padding: 0;
   box-sizing: border-box;
 }
+.wrapper{
+  width: 100%;
+  padding: 0px 100px;
+  padding-top: 15px;
+}

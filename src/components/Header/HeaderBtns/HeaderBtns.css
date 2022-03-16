@@ -1,0 +1,7 @@
+.header__middle_btns{
+    display: flex;
+    align-items: center;
+}
+.header__middle_btns-btn{
+    margin: 13px;
+}
