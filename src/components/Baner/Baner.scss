@@ -1,0 +1,40 @@
+.slider {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: black;
+}
+.slide {
+  min-width: 100%;
+  width: 400px;
+  height: 100%;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+%bnt-styles {
+  position: absolute;
+  border: none;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 10%;
+  height: 80%;
+  background: none;
+  outline: none;
+}
+
+#goLeft {
+  left: 0;
+  @extend %bnt-styles;
+}
+
+#goRight {
+  right: 0;
+  @extend %bnt-styles;
+}
